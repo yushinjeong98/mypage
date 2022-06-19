@@ -1,0 +1,89 @@
+<html>
+<head>
+		<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="토마스 - 프로필 링크">
+    <meta property="og:description" content="디자인하는 개발자가 꿈입니다!">
+    <meta property="og:image" content="토마스.png">
+    <script type="text/javascript" src="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/free/sparta.js"></script>
+    <title>토마스 - 프로필 링크</title>
+    <style>
+        @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+        * {
+            font-family: "Pretendard",serif;
+        }
+        body {
+            background-color: #44398a;
+        }
+        .profile {
+            width: 100px;
+            height: 100px;
+
+            border-radius: 100%;
+
+            border : 2px solid white;
+
+            background-image: url('토마스.png');
+            background-position: center;
+            background-size: cover;
+        }
+        .main {
+            color: white;
+            font-size: 20px;
+        }
+        .sub {
+            color: white;
+            font-size: 14px;
+
+            margin-top: 0px;
+            margin-bottom: 30px;
+        }
+        .wrap {
+            width: 350px;
+            margin: 30px auto 0px auto;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .wrap > a {
+            font-size: 14px;
+            font-weight: bold;
+            color: #44398A;
+
+            background-color: white;
+            border-radius: 8px;
+
+            box-shadow: 3px 3px 5px 0px black;
+
+            width: 300px;
+            height: 50px;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            margin-bottom: 10px;
+            text-decoration: none;
+        }
+        .wrap > a:hover {
+            background-color: #d2d2d2;
+        }
+    </style>
+</head>
+<body> 
+    <div class="wrap">
+        <div class="profile"></div>
+        <h1 class="main">토마스</h1>
+        <p class="sub">디자인하는 개발자가 꿈입니다!</p>
+        <a target="_blank" href="https://www.instagram.com/you._.god/">⭐인스타그램</a>
+        <a target="_blank" href="https://notefolio.net/naerumi">📖노트폴리오</a>
+        <a target="_blank" href="https://www.youtube.com/channel/UCZNfUNSM9-ap_gQrObJts3w">🎥유튜브</a>
+        <a target="_blank" href="mailto:yusin9811@naver.com">📧send email</a>
+    </div>
+</body>
+
+</html>
